@@ -1,0 +1,149 @@
+body{
+	 background-image: url("Test2.jpeg");
+	 background-size:cover;
+	 background-repeat: no-repeat;
+ }
+ 
+ .center {
+  margin: auto;
+  width:  fit-content;
+  padding: 10px;
+  display:flex;
+}
+
+h1{
+	margin: 22px 41px;
+    text-align: center;
+    font-style: inherit;
+    font-size: -webkit-xxx-large;
+    color: white;
+}
+.create a{
+	display: block;
+    padding: 11px 8px 6px 17px;
+    height: 40px;
+    width: 150px;
+    background: #00986f;
+    position: absolute;
+    position: absolute;
+    margin: 90px -900px;
+    color: #fff;
+    place-items: baseline;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.view a{
+	display: block;
+    padding: 11px 8px 6px 17px;
+    height: 40px;
+    width: 150px;
+    background: #00986f;
+    position: absolute;
+    margin: 192px -900px 34px;
+    color: #fff;
+    place-items: baseline;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.logout a{
+	display: block;
+    padding: 10px 0px 0px 0px;
+    height: 40px;
+    width: 150px;
+    background: #00986f;
+    position: absolute;
+	margin: 8px 325px;
+    color: #fff;
+    place-items: baseline;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 27px;
+	
+	
+}
+.ExamS a{
+	    display: block;
+    padding: 17px 11px 0px 8px;
+    height: 40px;
+    width: 150px;
+    background: #00986f;
+    position: absolute;
+    margin: 196px 44px;
+    color: #fff;
+    place-items: baseline;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.Fpassword a{
+	    display: block;
+    padding: 11px 13px 0px 15px;
+    height: 40px;
+    width: 150px;
+    background: #00986f;
+    position: absolute;
+    margin: 8px 115px;
+    color: #fff;
+    place-items: baseline;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content-table{
+border-collapse: collapse;
+margin: 0vw 0px 0px 30vw;
+font-size: 0.98em;
+min-width: 600px;
+border-radius: 5px 5px 0px 0px;
+overflow:hidden;
+box-shadow: 0 0 20px rgba(0,0,0,0.15);
+position: sticky; 
+
+}
+
+.content-table thead th{
+background-color:#00986f;
+color:#fff;
+text-align:left;
+}
+.content-table th,
+.content-table td{
+padding: 12px 15px;
+}
+
+.content-table tbody tr{
+border-bottom: 1px solid #dddddd;
+
+}
+
+.content-table tbody tr:nth-of-type(even){
+background-color: #f3f3f3;
+
+}
+.content-table tbody tr:last-of-type{
+border-bottom: 2px solid #00986f;
+}
+
+a btn-danger {
+display: block;
+    background: red;
+    color: #fff;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 80px;
+    text-align: center;
+
+}

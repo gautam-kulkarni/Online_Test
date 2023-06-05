@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+	 background-image: url("Test.jpg");
+	 background-size:cover;
+	 background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: black;
+}
+nav ul{
+    flex: 1;
+    text-align:right;
+
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+	font-weight: bold;
+	font-size: 20px;
+    text-decoration: none;
+    color: #00986f;
+    
+}
+a:hover {
+  color: white;
+  border-color: blue;
+  transition: .5s;
+}
+button{
+    background:#efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width:26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.text-container{
+    max-width: 900px;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+.text-container h1{
+	margin: 0px -550px;
+    font-size: 60px;
+    font-weight: 400px;
+    color: #00986f;
+}
+.text-container p{
+    font-size: 17px;
+}
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    margin-left: -552px;
+    border-radius: 30px;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 300px;
+}
+.control .line{
+    width: 25px;
+    height: 4px;
+    background: #fff;
+    margin: 0 20px;
+    padding: 0 140px;
+    border-radius: 2px;
+}
+.control .line span{
+    width: 50%;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+    padding-left: 140px;
+}
+.active{
+    background: green;
+}
+.active span{
+    background: #fff;
+    margin-left: 31px;
+}
+.on{
+    opacity: 1;
+}
